@@ -47,7 +47,7 @@ class Home extends React.Component{
                 }} >获取表格数据</Button>
                    <Button style={{marginLeft:15}} type="primary" onClick={()=>{
                     this.props.delData()
-                }} >删除</Button>
+                }} >删除表格数据</Button>
                  <Table dataSource={data} columns={columns} rowKey="id" />;
             </div>
         )
