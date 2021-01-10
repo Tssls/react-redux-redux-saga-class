@@ -55,13 +55,13 @@ class Home extends React.Component{
 }
 
 
-const mapStateToProps = (state, ownProps) => {
+const mapStateToProps = (state) => {
     return {
         prop: state.homeReducer
     }
 }
 
-const mapDispatchToProps = (dispatch, ownProps) => {
+const mapDispatchToProps = (dispatch) => {
     return {
         add:() => dispatch({type:'HOME_INCREMENT'}),
         sub:() => dispatch({type:'HOME_DECREMENT'}),
