@@ -27,7 +27,7 @@ class Home extends React.Component{
               dataIndex: 'email',
             },
             {
-              title: 'website1234',
+              title: '网络',
               dataIndex: 'website',
             },
           ];
