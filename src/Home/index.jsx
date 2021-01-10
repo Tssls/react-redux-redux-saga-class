@@ -44,10 +44,10 @@ class Home extends React.Component{
                 </div>
                 <Button type="primary" onClick={()=>{
                     this.props.getData()
-                }} >获取表格数据</Button>
+                }} >获取数据</Button>
                    <Button style={{marginLeft:15}} type="primary" onClick={()=>{
                     this.props.delData()
-                }} >删除表格数据</Button>
+                }} >删除数据</Button>
                  <Table dataSource={data} columns={columns} rowKey="id" />;
             </div>
         )
