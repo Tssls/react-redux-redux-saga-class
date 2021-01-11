@@ -33,7 +33,7 @@ class App extends React.Component{
       <Button type="primary" onClick={this.getData.bind(this)}>获取表格数据</Button>
       <Button type="primary" onClick={()=>{
        this.props.history.push('/home')
-      }}>跳转到home组件</Button>
+      }}>跳转到home</Button>
       <Table dataSource={data} columns={columns} rowKey="id" />;
     </div>
     )
